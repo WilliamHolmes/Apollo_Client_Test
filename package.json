@@ -1,0 +1,48 @@
+{
+    "name": "Apoll-Client_Test",
+    "version": "0.0.1",
+    "description": "Testing Apollo Client, React & Relay",
+    "author": "William Holmes <holmes.william@gmail.com>",
+    "license": "MIT",
+    "homepage": "https://github.com/WilliamHolmes/Apollo_Client_Test",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/WilliamHolmes/Apollo_Client_Test.git"
+    },
+    "bugs": {
+      "url": "https://github.com/WilliamHolmes/Apollo_Client_Test/issues"
+    },
+    "keywords": [
+        "react",
+        "reactjs",
+        "relay",
+        "webpack"
+    ],
+    "scripts": {
+        "prestart": "npm prune && npm update && npm install",
+        "start": "cross-env NODE_ENV=production node server.js"
+    },
+    "devDependencies": {
+      "babel-core": "^6.0.20",
+      "babel-eslint": "^4.1.3",
+      "babel-loader": "^6.0.1",
+      "babel-preset-es2015": "^6.0.15",
+      "babel-preset-react": "^6.0.15",
+      "babel-preset-stage-0": "^6.0.15",
+      "cross-env": "1.0.7",
+      "eslint": "^1.10.3",
+      "eslint-plugin-react": "^3.6.2",
+      "react-hot-loader": "^1.3.0",
+      "webpack": "^1.12.2",
+      "webpack-dev-server": "^1.12.1"
+
+    },
+    "dependencies": {
+        "apollo-client": "0.2.0",
+        "react-apollo": "0.2.0",
+        "react-dom": "15.0.2",
+        "react-redux": "4.4.5",
+        "react": "15.0.2",
+        "redux": "3.5.2"
+    }
+}
